@@ -1,7 +1,6 @@
 This directory contains everything needed for
-Chapter 2 (i.e., Problem 2 in Act I, Scene I (Scripts)).
-
-**Files for STUDENTS**
+**Chapter 2 (Grab the Dialogue)** in
+*Computational Thinking and Problem Solving*.
 
 `read32.py`: our complete solution to the problem in Chapter 1 (i.e.,
 it reads a children's story).  This script is a renamed copy of
@@ -22,14 +21,7 @@ patterns of dialogue.
 didn't work for dialogue contained completely within one file line.
 
 `txts`: Directory containing plaintext stories (i.e., `[title].txt`).
-See the assignments and exercises make reference to a number of these
+The assignments and exercises make reference to a number of these
 files as test inputs.
 
-`count32.py`: starting point for Homework #3.
-
-`script32.py`: a cleaned-up version of `script4.py` that serves as
-the starting point for pset #2.
-
-`pset2.md`: The description of the programming assignment for this
-chapter. In CS32, this file becomes `instructions.md` in the `pset2`
-Replit project.
+`count32.py`: starting point for ALEs 1-5.

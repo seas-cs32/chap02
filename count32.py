@@ -1,4 +1,4 @@
-### chap02/count32.py -- used in Homework #3
+### chap02/count32.py -- used in ALEs 1-5
 
 # Grab the text blurb to process
 import sys
