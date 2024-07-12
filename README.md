@@ -1,6 +1,7 @@
 This directory contains everything needed for
 **Chapter 2 (Grab the Dialogue)** in
-*Computational Thinking and Problem Solving*.
+[*Computational Thinking and Problem Solving (CTPS)*](https://profsmith89.github.io/ctps/ctps.html)
+by Michael D. Smith.
 
 `read32.py`: our complete solution to the problem in Chapter 1 (i.e.,
 it reads a children's story).  This script is a renamed copy of
@@ -10,18 +11,21 @@ it reads a children's story).  This script is a renamed copy of
 to solving the new problem in Chapter 2 (i.e., turn a story into
 a theatrical script).
 
-`script2.py`: an incomplete script, in which we have started to fill
-in the code for state `S0` (and nothing for state `S1`).
+`script2.py` - `script7.py`: incomplete scripts that track the major
+steps we follow in Chapter 2.
 
-`script3.py`: a script that we hope will work for dialogue spread
+`script8.py`: a script that we hope will work for dialogue spread
 over two or more file lines. We're not sure it will work for other
 patterns of dialogue.
 
-`script4.py`: a script that fixes a problem with `script3.py`, which
+`script9.py`: a script that fixes a problem with `script8.py`, which
 didn't work for dialogue contained completely within one file line.
 
 `txts`: Directory containing plaintext stories (i.e., `[title].txt`).
-The assignments and exercises make reference to a number of these
+The chapter and its exercises make reference to a number of these
 files as test inputs.
 
-`count32.py`: starting point for ALEs 1-5.
+`count32.py`: starting point for ALEs 2.1-2.5.
+
+`script32.py`: a cleaned-up version of `script9.py` that serves
+as the starting point for ALE 2.7.

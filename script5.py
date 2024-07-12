@@ -1,4 +1,4 @@
-### chap02/script3.py
+### chap02/script5.py
 my_book = input('What book would you like as a script? ')
 
 with open('txts/' + my_book) as my_open_book:
@@ -17,10 +17,8 @@ with open('txts/' + my_book) as my_open_book:
             # Do some work
 
             # Part of which is transitioning between states
-            # if found opening double quote
-                # move to s1
-            # else
-                # stay in s0
+            if '"' in the_line:
+                looking_for_open_quote = False
 
         else:                        # in S1
             # Do other work

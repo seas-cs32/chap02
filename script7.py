@@ -1,4 +1,4 @@
-### chap02/script3.py
+### chap02/script7.py
 my_book = input('What book would you like as a script? ')
 
 with open('txts/' + my_book) as my_open_book:
@@ -14,14 +14,14 @@ with open('txts/' + my_book) as my_open_book:
 
         # new pseudocode goes here
         if looking_for_open_quote:   # in S0
-            # Do some work
-
-            # Part of which is transitioning between states
-            # if found opening double quote
-                # move to s1
-            # else
-                # stay in s0
-
+            # Look for an opening double quote
+            for i in range(len(the_line)):
+                if the_line[i] == '"':
+                    # Capture dialogue and transition to S1
+                    dialog = the_line[i:]
+                    looking_for_open_quote = False
+                    break
+            
         else:                        # in S1
             # Do other work
 

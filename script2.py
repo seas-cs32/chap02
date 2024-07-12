@@ -8,21 +8,14 @@ with open('txts/' + my_book) as my_open_book:
     while True:
         the_line = my_open_book.readline()
 
+        # Check for EOF
         if the_line == '':
-            # We've read the entire book!
-            print("\nThe End.")
             break
 
         # new pseudocode goes here
-        if looking_for_open_quote:   # in s0
-            # do some work; some of it follows
-            for i in range(len(the_line)):
-                if the_line[i] == '"':
-                    dialog = the_line[i:]
-                    break
+        if looking_for_open_quote:   # in S0
+            # Do some work
+        else:                        # in S1
+            # Do other work
 
-            if '"' in the_line:
-                looking_for_open_quote = False
-
-        else:                        # in s1
-            # do other work
+print("The End.")
