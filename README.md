@@ -29,3 +29,5 @@ files as test inputs.
 
 `script32.py`: a cleaned-up version of `script9.py` that serves
 as the starting point for ALE 2.7.
+
+`ale08.py`: starting point for ALE 2.8.
